@@ -1,3 +1,4 @@
+import { createRouter, createWebHistory } from 'vue-router';
 import ToDoListShow from '../views/ToDoListShow.vue';
 import ToDoListCreate from '../views/ToDoListCreate.vue';
 
@@ -20,3 +21,4 @@ const router = createRouter({
 });
 
 export default router;
+
